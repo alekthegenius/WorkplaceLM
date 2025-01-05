@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{% include 'head.html' %}
+{% endblock %}
+
+{% block content %}
+
+<div class="editor-container">
+    <div class="editor-left-column">
+        <div class="editor-column-header">
+            <h1 class="editor-column-header-title">Sources</h1>
+        </div>
+    </div>
+    <div class="editor-center-column"> 
+        <div class="editor-column-header">
+            <h1 class="editor-column-header-title">Workspace Editor</h1>
+        </div>
+
+        <div class="editor-center-column-content">
+            <div class="center-overflow-container">
+                <span class="workspace-icon">{{ workspace['icon'][0]| safe }}</span>
+                <div class="workspace-text">
+                    <span class="workspace-name">
+                        {{ workspace['name'][0] }}
+                        <br>
+                    </span>
+                    <span class="workspace-source-number">
+                        Sources: {{ workspace['sources'][0] }}
+                    </span>
+                    <p class="workspace-ai-description">
+                        {{ workspace['ai_description'][0] }}
+                    </p> 
+                </div>
+
+                <div class="workspace-quick-actions">
+                    
+                </div> 
+            </div>
+        </div>
+
+        <div class="prompt-container">
+            <div class="prompt-bar">
+                
+            </div> 
+
+            <div class="prompt-submit-button">
+                
+            </div> 
+        </div>
+
+    </div>
+
+    <div class="editor-right-column">
+        <div class="editor-column-header">
+            <h1 class="editor-column-header-title">Settings</h1>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}

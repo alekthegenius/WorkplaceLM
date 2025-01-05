@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+
+{% block head %}
+{% include 'head.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="content_container"> 
+        <h1 class="title_style">Kudos, from WorkspaceLM</h1>
+        <h1 class="subtitle_style">List of Workspaces</h1>
+        <div class="divider_line"></div>
+        <div class="workspacer_nav">
+            <button id="modelBtn" class="workspace_btn"><i class="fa-solid fa-plus"></i> Create New Workspace</button>
+            <button id="deleteBtn" class="workspace_btn"><i class="fa-solid fa-trash"></i> Delete All Workspaces</button>
+        </div>
+
+        {% include 'workspace_creator_model.html' %}
+
+        <div class="workspace_container">
+            {% for index, workspace in workspaces %}
+
+                {% include 'workspace_card.html' %}
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

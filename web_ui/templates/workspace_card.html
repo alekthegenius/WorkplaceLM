@@ -1,0 +1,28 @@
+<div class="workspace_card" id="{{ workspace['id'] }}">
+    <a href="/workspace/{{ workspace['id'] }}" class="card-content">
+        <div class="top_bar">
+            <span class="workspace_icon"><i class="fa-solid fa-folder"></i></span>
+            <div class="workspace_options">
+                <button class="option_button"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <div class="workspace_options_content">
+                    <button class="workspace_options_button delete_card_button"><i class="fa-solid fa-trash"></i> Delete</button>
+                    <button class="workspace_options_button"><i class="fa-solid fa-pen-to-square"></i> Edit Title and Description</button>
+        
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom_line">
+            <div><span class="workspace_name">{{ workspace['name'] }}</span></div>
+            
+            <div><span class="workspace_description">{{ workspace['description'] }}</span></div>
+            
+            <div class="workspace-data">
+                <span class="workspace_date">{{ workspace['date'] }}</span>
+                <i class="fa-solid fa-circle"></i>
+                <span class="workspace_source_number">{{ workspace['sources'] }} Sources</span>
+            </div>
+        </div>
+    </a>
+
+</div>

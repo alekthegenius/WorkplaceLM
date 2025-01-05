@@ -1,0 +1,20 @@
+<div id="workspace_creator_model" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 class="modal_title_style">Create New Workspace</h1>
+        <div class="divider_line"></div>
+        <form id="workspace_form" class="modal-form" action="/createWorkspace" method="POST">
+
+            <label class="modal-label" for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label class="modal-label" for="description">Description:</label>
+            <input type="text" id="description" name="description" required><br>
+
+            <label class="modal-label" for="sources">Sources:</label>
+            <input type="number" id="sources" name="sources" required><br>
+
+            <button class="model-submit" type="submit">Create</button>
+        </form>
+    </div>
+</div>
