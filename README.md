@@ -19,7 +19,7 @@ An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interf
 
 ## Contributing
 
-If you know Python or Web Devlopment and would like to contribute to this project, then feel free to fork this project and create a pull request! If you don't know where to begin, then here is an excellence resource on contributing to projects: [First-Contributions](https://github.com/firstcontributions/first-contributions)
+If you know Python or are familiar with LLM or Web Devlopment and would like to contribute to this project, then feel free to fork this project and start a pull request! If you don't know where to begin, then here is an excellence resource on contributing to projects: [First-Contributions](https://github.com/firstcontributions/first-contributions)
 
 ## Support
 If you have any questions or concerns, feel free to send me an email at: alekvasek@icloud.com
