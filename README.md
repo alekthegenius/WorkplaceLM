@@ -27,5 +27,5 @@ If you have any questions or concerns, feel free to send me an email at: alekvas
 This project is licensed under the [MIT-License](https://mit-license.org/). Refer to the [LICENSE](LICENSE) file for more details.
 
 ---
-Created from Texas With ❤️, by Alek Vasek
+From Texas With ❤️ By Alek Vasek
 
