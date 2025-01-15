@@ -1,3 +1,4 @@
+![WorkspaceLm-Logo](https://github.com/alekthegenius/WorkplaceLM/blob/main/repository-open-graph-template.png)
 # WorkspaceLM 📄
 **OpenSource, Python-Based Version of Google's NotebookLM**
 
