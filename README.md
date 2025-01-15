@@ -1,21 +1,26 @@
-# WorkspaceLM
+# WorkspaceLM 📄
 **OpenSource, Python-Based Version of Google's NotebookLM**
 
-## Vision:
+## Vision
 
 An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interface, Podcast and TTS support, Plugin Support, lightweight interface
 
-## Roadmap:
+## Roadmap
  - [x] Make Home Page and Workspace Cards
  - [ ] Make Workspace Editor
  - [ ] Streamline id and class names
  - [ ] Make Deployable and Containerize using Docker Compose
  - [ ] Integrate Ollama and MLX for Apple-Silicon
  - [ ] Integrate ChromaDB and Langchain
+ - [ ] Create Version 1 Milestone
  - [ ] Create Plugin Manager
  - [ ] Integrate TTS based system for Generative Podcasts
- - [ ] Create Wiki and Installation Page
+ - [ ] Finish Wiki Pages
  - [ ] Deploy on AWS Server
+
+## Screenshots
+
+![screenshot](https://github.com/alekthegenius/WorkplaceLM/blob/main/Screenshot%202025-01-14%20at%2021.03.46.png)
 
 ## Contributing
 
