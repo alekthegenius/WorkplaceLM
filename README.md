@@ -1,11 +1,11 @@
 # WorkspaceLM 📄
 **OpenSource, Python-Based Version of Google's NotebookLM**
 
-## Vision:
+## Vision
 
 An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interface, Podcast and TTS support, Plugin Support, lightweight interface
 
-## Roadmap:
+## Roadmap
  - [x] Make Home Page and Workspace Cards
  - [ ] Make Workspace Editor
  - [ ] Streamline id and class names
@@ -17,7 +17,7 @@ An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interf
  - [ ] Finish Wiki Pages
  - [ ] Deploy on AWS Server
 
-## Screenshots:
+## Screenshots
 
 ![screenshot](https://github.com/alekthegenius/WorkplaceLM/blob/main/Screenshot%202025-01-14%20at%2021.03.46.png)
 
