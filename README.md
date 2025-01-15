@@ -14,7 +14,7 @@ An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interf
  - [ ] Integrate ChromaDB and Langchain
  - [ ] Create Plugin Manager
  - [ ] Integrate TTS based system for Generative Podcasts
- - [ ] Create Wiki and Installation Page
+ - [ ] Finish Wiki Pages
  - [ ] Deploy on AWS Server
 
 ## Screenshots:
