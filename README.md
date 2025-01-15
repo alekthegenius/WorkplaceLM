@@ -12,6 +12,7 @@ An open-source LLM editor, equipped with an Ollama-based chat system, RAG-interf
  - [ ] Make Deployable and Containerize using Docker Compose
  - [ ] Integrate Ollama and MLX for Apple-Silicon
  - [ ] Integrate ChromaDB and Langchain
+ - [ ] Create Version 1 Milestone
  - [ ] Create Plugin Manager
  - [ ] Integrate TTS based system for Generative Podcasts
  - [ ] Finish Wiki Pages
