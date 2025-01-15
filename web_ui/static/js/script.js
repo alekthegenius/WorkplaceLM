@@ -1,3 +1,5 @@
+// ----------------------------DARK MODE BUTTON-------------------------------
+
 // Select the button
 const btn = document.querySelector(".btn-toggle");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -41,6 +43,9 @@ btn.addEventListener("click", function () {
   localStorage.setItem("theme", currentTheme);
 });
 
+
+// ----------------------------WORKSPACE CARDS-------------------------------
+
 // Get the modal
 var modal = document.getElementById("workspace_creator_model");
 
@@ -51,7 +56,7 @@ var modalBtn = document.getElementById("modelBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-modalBtn.onclick = function() {
+modelBtn.onclick = function() {
   modal.style.display = "block";
 }
 
@@ -67,10 +72,18 @@ window.onclick = function(event) {
   }
 }
 
+// ----------------------------WORKSPACE OPTIONS-------------------------------
+
 var workspaceCardButtons = document.querySelectorAll(".option_button");
 var workspaceDropdowns = document.querySelectorAll(".workspace_options_content");
 
 
+document.querySelectorAll('.option_button, .workspace_options_button').forEach(button => {
+  button.addEventListener('click', (event) => {
+      event.preventDefault();  // Prevents default action (navigation)
+      event.stopPropagation(); // Stops event from bubbling to the <a> element
+  });
+});
 
 workspaceCardButtons.forEach((button, index) => {
   button.onclick = function(event) {
@@ -135,4 +148,15 @@ $(document).ready(function(){
       }
   });
   });
+});
+
+
+var promptBar = document.getElementById("promptBar");
+console.log("promptBar element:", promptBar);
+promptBar.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("promptSubmitButton").click();
+    console.log("Enter key pressed");
+  }
 });

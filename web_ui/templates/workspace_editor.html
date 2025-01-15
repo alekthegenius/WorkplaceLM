@@ -26,7 +26,7 @@
                         <br>
                     </span>
                     <span class="workspace-source-number">
-                        Sources: {{ workspace['sources'][0] }}
+                        {{ workspace['sources'][0] }} Sources
                     </span>
                     <p class="workspace-ai-description">
                         {{ workspace['ai_description'][0] }}
@@ -40,13 +40,9 @@
         </div>
 
         <div class="prompt-container">
-            <div class="prompt-bar">
-                
-            </div> 
+            <textarea id="promptBar" class="prompt-bar" placeholder="Type your prompt here..."></textarea>
 
-            <div class="prompt-submit-button">
-                
-            </div> 
+            <button id="promptSubmitButton" class="prompt-submit-button"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
 
     </div>
