@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-When we rlease our first milestone Version 1.0, this will be updated
+When we release our first milestone Version 1.0, this will be updated
 
 | Version | Supported          |
 | ------- | ------------------ |
