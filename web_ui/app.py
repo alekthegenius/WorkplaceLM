@@ -62,6 +62,7 @@ def deleteWorkspace():
 
 		index = 0
 		workspaces = workspaces.drop(index)
+		workspaces = workspaces.reset_index(drop=True)
 		
 		return redirect(url_for('main'))
 	
@@ -74,6 +75,7 @@ def deleteWorkspace():
 		
 		index = workspaces.index[workspaces['id'] == int(id)].tolist()[0]
 		workspaces = workspaces.drop(index)
+		workspaces = workspaces.reset_index(drop=True)
 		return redirect(url_for('main'))
 	
 
@@ -86,10 +88,12 @@ def workspace(workspace_id):
 	print("Workspaces: ")
 	print(workspaces)
 
-	workspace = workspaces[workspaces["id"] == int(float(workspace_id))]
+	workspace = workspaces.loc[workspaces['id'] == int(float(workspace_id))]
 
 	print("Workspace: ")
 	print(workspace)
+
+	print(workspace['name'][0])
 	return render_template("workspace_editor.html", workspace=workspace)
 
 if __name__ == "__main__":

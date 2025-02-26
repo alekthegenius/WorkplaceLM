@@ -198,7 +198,17 @@ footer {
     font-weight: bold;
     font-style: italic;
     margin: 15px;
-    text-decoration: none;
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    text-decoration: none; /* Ensure the link has no underline */
+}
+
+.logo_style img {
+    display: block; /* Ensures the image doesn't add extra space */
+    height:30px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 /* -----------------------------MISC STYLING------------------------------- */
